@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="room">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    
+    <include>
+      <uri>model://course</uri>
+    </include>
+
+    <include>
+      <uri>model://traffic_parking</uri>
+      <pose>0.243646 1.7884 0.702708 0 -0 0</pose>
+    </include>
+  </world>
+</sdf>
